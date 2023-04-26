@@ -9,7 +9,7 @@
 
 %%
 [a-zA-Z]+ {
-    if(yyleng > length){
+    	if(yyleng > length){
 		length = yyleng;
 	}
 }
