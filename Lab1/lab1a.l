@@ -8,10 +8,10 @@
 
 %%
 [a-zA-Z_]([a-zA-Z0-9_])* {
-    printf("Valid");
+	printf("Valid");
 }
 .* {
-    printf("Invalid");
+	printf("Invalid");
 }
 %%
 
