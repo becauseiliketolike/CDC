@@ -17,7 +17,7 @@ int main()
 {
     int i, char_freq=INT_MIN, character;
     printf("Enter the string: ");
-	yylex();
+    yylex();
     for (i=0; i<129; i++)
     {
         if(char_freq < z[i])
@@ -27,6 +27,6 @@ int main()
         }
     }
     printf("Frequency is %d and the character with the highest frequency is %c", char_freq, character);
-	return 0;
+    return 0;
 }
 
