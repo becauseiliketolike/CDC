@@ -20,11 +20,11 @@ int main()
 	yylex();
 	for (i=0; i<129; i++)
 	{
-	if(char_freq < z[i])
-	{
-	    char_freq = z[i];
-	    character = i;
-	}
+		if(char_freq < z[i])
+		{
+		    char_freq = z[i];
+		    character = i;
+		}
 	}
 	printf("Frequency is %d and the character with the highest frequency is %c", char_freq, character);
 	return 0;
